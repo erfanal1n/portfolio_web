@@ -28,7 +28,7 @@ export default function Experience2() {
 								<div className="row mt-5">
 									<div className="col-lg-4">
 										<div className="d-flex flex-column gap-2">
-											<Link href="#" className="technology border border-1 rounded-3 p-3">
+											<Link href="" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/web_application.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -37,7 +37,7 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="#" className="technology border border-1 rounded-3 p-3">
+											<Link href="" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/chatbot.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -46,7 +46,7 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="#" className="technology border border-1 rounded-3 p-3">
+											<Link href="" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/dashboard.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -55,7 +55,7 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="#" className="technology border border-1 rounded-3 p-3">
+											<Link href="" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/wordpress.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
