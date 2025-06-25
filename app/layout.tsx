@@ -28,8 +28,8 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-	title: "ErfanAlin - Personal Portfolio Template",
-	description: "ErfanAlin - Personal Portfolio Template",
+	title: "Erfan Alin - Personal Portfolio Website",
+	description: "ErfanAlin - Personal Portfolio ",
 }
 
 export default function RootLayout({
