@@ -34,16 +34,16 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 						<div className="contact-list">
 							<p className="text-400 fs-5 mb-2">Social</p>
 							<div className="d-md-flex d-none gap-3">
-								<Link href="/http://facebook.com/erfanverse">
+								<Link href="http://facebook.com/erfanverse"target="_blank" rel="noopener noreferrer">
 									<i className="ri-facebook-circle-fill fs-18" />
 								</Link>
-								<Link href="/http://twitter.com">
-									<i className="ri-twitter-x-fill fs-18" />
+								<Link href="https://www.instagram.com/__you_know_whoo__"target="_blank" rel="noopener noreferrer">
+									<i className="ri-instagram-fill fs-18" />
 								</Link>
-								<Link href="/http://linkedin.com">
+								<Link href="https://www.linkedin.com/in/md-erfanul-haque-311042332/"target="_blank" rel="noopener noreferrer">
 									<i className="ri-linkedin-fill fs-18" />
 								</Link>
-								<Link href="/http://github.com">
+								<Link href="http://github.com/erfanal1n"target="_blank" rel="noopener noreferrer">
 									<i className="ri-github-fill fs-18" />
 								</Link>
 							</div>
