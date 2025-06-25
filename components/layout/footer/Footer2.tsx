@@ -20,8 +20,8 @@ export default function Footer2() {
 								<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/"target="_blank" rel="noopener noreferrer">
 									<i className="ri-linkedin-fill fs-18" />
 								</a>
-								<a href="http://github.com/erfanal1n"target="_blank" rel="noopener noreferrer">
-									<i className="ri-github-fill fs-18" />
+								<a href="http://github.com/erfanal1n"target="_blank" rel="noopener noreferrer" >
+									<i className="ri-github-fill fs-18" /> 
 								</a>
 							</div>
 							<div className="navigation d-flex align-items-center justify-content-center flex-wrap gap-4 my-4">
@@ -29,7 +29,7 @@ export default function Footer2() {
 								<a href="#resume" className="fs-6"> Resume </a>
 								<a href="#services" className="fs-6"> Services </a>
 								<a href="#portfolio" className="fs-6"> Portfolio </a>
-								<a href="#blog" className="fs-6"> Blog </a>
+								<a href="#blog" className="fs-6"> Blogs </a>
 								<a href="#contact" className="fs-6"> Contact </a>
 							</div>
 						</div>
