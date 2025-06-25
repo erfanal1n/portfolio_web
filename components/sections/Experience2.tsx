@@ -83,11 +83,21 @@ export default function Experience2() {
 											<li className="text-dark mb-3">Implemented robust backend APIs and integrated third-party services for enhanced functionality.</li>
 										</ul>
 										<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
-											<Link href="#" className="text-300 border border-1 px-3 py-1">Python</Link>
-											<Link href="#" className="text-300 border border-1 px-3 py-1">Javascript</Link>
-											<Link href="#" className="text-300 border border-1 px-3 py-1">Mysql</Link>
-											<Link href="#" className="text-300 border border-1 px-3 py-1">Html</Link>
-											<Link href="#" className="text-300 border border-1 px-3 py-1">Php</Link>
+											<Link href="#" 
+											onClick={(e) => e.preventDefault()} 
+											className="text-300 border border-1 px-3 py-1">Python</Link>
+											<Link href="#"
+											onClick={(e) => e.preventDefault()} 
+											className="text-300 border border-1 px-3 py-1">Javascript</Link>
+											<Link href="#"
+											onClick={(e) => e.preventDefault()} 
+											className="text-300 border border-1 px-3 py-1">Mysql</Link>
+											<Link href="#"
+											onClick={(e) => e.preventDefault()} 
+											className="text-300 border border-1 px-3 py-1">Html</Link>
+											<Link href="#"
+											onClick={(e) => e.preventDefault()} 
+											className="text-300 border border-1 px-3 py-1">Php</Link>
 										</div>
 									</div>
 								</div>

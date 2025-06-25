@@ -68,14 +68,14 @@ export default function Contact2() {
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
 									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
-										<i className="ri-instagram-fill text-primary-2 fs-26" />
+										<i className="ri-linkedin-fill text-primary-2 fs-26" />
 									</div>
 								</div>
 								<div className="ps-3 h-100">
-									<span className="text-400 fs-6">Instagram</span>
-									<h6 className="mb-0">__you_know_whoo__</h6>
+									<span className="text-400 fs-6">Linkedin</span>
+									<h6 className="mb-0">Md. Erfanul Haque</h6>
 								</div>
-								<a href="skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/"target="_blank" rel="noopener noreferrer" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -87,7 +87,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Address</span>
 									<h6 className="mb-0">Dhaka,Bangladesh</h6>
 								</div>
-								<a href="https://maps.app.goo.gl/UYkt8uvgQaw5fLLPA" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://maps.app.goo.gl/UYkt8uvgQaw5fLLPA"target="_blank" rel="noopener noreferrer" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 						</div>
 					</div>
