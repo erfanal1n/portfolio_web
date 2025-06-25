@@ -9,7 +9,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 			<div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2 ${isMobileMenu ? 'sidebar-visible' : ''}`}>
 				<div className="mobile-header-wrapper-inner">
 					<div className="mobile-header-logo">
-						<Link className="d-flex main-logo align-items-center d-inline-flex" href="/">
+						<Link className="d-flex main-logo align-items-center d-inline-flex" href="/" onClick={handleMobileMenu}>
 							<img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
 							<span className="fs-4 ms-2 text-dark">Erfan Alin</span>
 						</Link>
@@ -25,22 +25,22 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 								<nav>
 									<ul className="mobile-menu font-heading ps-0">
 										<li className="nav-item">
-											<Link className="nav-link active" href="/">Home</Link>
+											<Link className="nav-link active" href="/" onClick={handleMobileMenu}>Home</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/#services">Services</Link>
+											<Link className="nav-link" href="/#services" onClick={handleMobileMenu}>Services</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/#portfolio">Portfolio</Link>
+											<Link className="nav-link" href="/#portfolio" onClick={handleMobileMenu}>Portfolio</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/#about">About Me</Link>
+											<Link className="nav-link" href="/#about" onClick={handleMobileMenu}>About Me</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/blog-list">Blog</Link>
+											<Link className="nav-link" href="/blog-list" onClick={handleMobileMenu}>Blog</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/#contact">Contact</Link>
+											<Link className="nav-link" href="/#contact" onClick={handleMobileMenu}>Contact</Link>
 										</li>
 									</ul>
 								</nav>
