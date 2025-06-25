@@ -28,7 +28,7 @@ export default function Projects2() {
 	return (
 		<>
 
-			<div className="section-projects-2 pt-5">
+			<div id="portfolio" className="section-projects-2 pt-5">
 				<div className="container">
 					<div className="rounded-3 border border-1 position-relative overflow-hidden">
 						<div className="box-linear-animation position-relative z-1">

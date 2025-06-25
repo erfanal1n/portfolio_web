@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link'
 
 
@@ -5,7 +6,7 @@ export default function Experience2() {
 	return (
 		<>
 
-			<section id="portfolio" className="section-experience pt-5">
+			<section id="experince" className="section-experience pt-5">
 				<div className="container">
 					<div className="rounded-3 border border-1 position-relative overflow-hidden">
 						<div className="box-linear-animation position-relative z-1">
@@ -28,7 +29,9 @@ export default function Experience2() {
 								<div className="row mt-5">
 									<div className="col-lg-4">
 										<div className="d-flex flex-column gap-2">
-											<Link href="" className="technology border border-1 rounded-3 p-3">
+											<Link href="#" 
+											onClick={(e) => e.preventDefault()} 
+											className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/web_application.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -37,7 +40,9 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="" className="technology border border-1 rounded-3 p-3">
+											<Link href="#" 
+											onClick={(e) => e.preventDefault()} 
+											className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/chatbot.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -46,7 +51,9 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="" className="technology border border-1 rounded-3 p-3">
+											<Link href="#"
+											onClick={(e) => e.preventDefault()}
+											 className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/dashboard.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
@@ -55,7 +62,9 @@ export default function Experience2() {
 													</div>
 												</div>
 											</Link>
-											<Link href="" className="technology border border-1 rounded-3 p-3">
+											<Link href="#" 
+											onClick={(e) => e.preventDefault()} 
+											className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
 													<img src="assets/imgs/home-page-2/experience/wordpress.svg" alt="erfanalin" />
 													<div className="d-flex flex-column ms-2">
