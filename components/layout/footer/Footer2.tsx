@@ -75,6 +75,30 @@ export default function Footer2() {
 					-webkit-text-fill-color: transparent !important;
 					margin-left: 0.5rem !important;
 				}
+				:global([data-bs-theme="light"]) .footer-text {
+					color: #1f1f24 !important;
+				}
+				:global([data-bs-theme="light"]) .footer-icon {
+					color: #1f1f24 !important;
+				}
+				:global([data-bs-theme="light"]) .main-logo {
+					color: #1f1f24 !important;
+				}
+				:global([data-bs-theme="light"]) .main-logo:hover {
+					color: #1f1f24 !important;
+				}
+				:global([data-bs-theme="light"]) .main-logo span {
+					background: linear-gradient(270deg, rgba(31, 31, 36, 0.32) 0%, #1f1f24 100%) !important;
+					background-clip: text !important;
+					-webkit-background-clip: text !important;
+					-webkit-text-fill-color: transparent !important;
+				}
+				:global([data-bs-theme="light"]) .footer-text:hover {
+					color: #6e4ef2 !important;
+				}
+				:global([data-bs-theme="light"]) .footer-icon:hover {
+					color: #6e4ef2 !important;
+				}
 			`}</style>
 			<footer className="bg-[#1f1f25] text-white w-full">
 				<div className="w-full px-4 md:px-8 lg:px-12 xl:px-24 pt-16 pb-6">
