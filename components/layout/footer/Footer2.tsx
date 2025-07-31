@@ -102,33 +102,33 @@ export default function Footer2() {
 
 			<div className="container position-relative z-1 border-top border-1 pb-2 pt-4">
 				<div className="text-center">
-					<a className="d-flex main-logo align-items-center justify-content-center mb-3">
+					<a className="d-flex main-logo align-items-center justify-content-center mb-3 text-white text-decoration-none">
 						<img src="assets/imgs/home-page-2/template/favicon.svg" alt="erfanalin" />
-						<span className="fs-4 ms-2">Erfan Alin</span>
+						<span className="fs-4 ms-2 text-white">Erfan Alin</span>
 					</a>
 
 					<div className="d-flex justify-content-center gap-3">
-						<a href="http://facebook.com/erfanverse" target="_blank" rel="noopener noreferrer">
+						<a href="http://facebook.com/erfanverse" target="_blank" rel="noopener noreferrer" className="text-white">
 							<i className="ri-facebook-circle-fill fs-18" />
 						</a>
-						<a href="https://www.instagram.com/__you_know_whoo__" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.instagram.com/__you_know_whoo__" target="_blank" rel="noopener noreferrer" className="text-white">
 							<i className="ri-instagram-fill fs-18" />
 						</a>
-						<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/" target="_blank" rel="noopener noreferrer" className="text-white">
 							<i className="ri-linkedin-fill fs-18" />
 						</a>
-						<a href="http://github.com/erfanal1n" target="_blank" rel="noopener noreferrer">
+						<a href="http://github.com/erfanal1n" target="_blank" rel="noopener noreferrer" className="text-white">
 							<i className="ri-github-fill fs-18" />
 						</a>
 					</div>
 
 					<div className="navigation d-flex align-items-center justify-content-center flex-wrap gap-4 my-4">
-						<a href="#about" className="fs-6">About me</a>
-						<a href="#resume" className="fs-6">Resume</a>
-						<a href="#services" className="fs-6">Services</a>
-						<a href="#portfolio" className="fs-6">Portfolio</a>
-						<a href="#blog" className="fs-6">Blogs</a>
-						<a href="#contact" className="fs-6">Contact</a>
+						<a href="#about" className="fs-6 text-white text-decoration-none">About me</a>
+						<a href="#resume" className="fs-6 text-white text-decoration-none">Resume</a>
+						<a href="#services" className="fs-6 text-white text-decoration-none">Services</a>
+						<a href="#portfolio" className="fs-6 text-white text-decoration-none">Portfolio</a>
+						<a href="#blog" className="fs-6 text-white text-decoration-none">Blogs</a>
+						<a href="#contact" className="fs-6 text-white text-decoration-none">Contact</a>
 					</div>
 				</div>
 			</div>
