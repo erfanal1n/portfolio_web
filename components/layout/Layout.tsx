@@ -9,6 +9,8 @@ import Breadcrumb from './Breadcrumb'
 import MobileMenu from './MobileMenu'
 import Footer2 from './footer/Footer2'
 import Header2 from './header/Header2'
+import Preloader from "../elements/Preloader"
+import useCanvasCursor from "../../hooks/useCanvasCursor"
 
 interface LayoutProps {
 	headerStyle?: Number
@@ -20,6 +22,10 @@ interface LayoutProps {
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }: LayoutProps) {
 	const [scroll, setScroll] = useState<boolean>(false)
+	
+	// Initialize canvas cursor effect
+	useCanvasCursor()
+	
 	// Mobile Menu
 	const [isMobileMenu, setMobileMenu] = useState<boolean>(false)
 	const handleMobileMenu = (): void => {
@@ -59,6 +65,19 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	}, [scroll])
 	return (
 		<>
+			<Preloader />
+			<canvas 
+				id="canvas" 
+				style={{
+					position: 'fixed',
+					top: 0,
+					left: 0,
+					width: '100vw',
+					height: '100vh',
+					pointerEvents: 'none',
+					zIndex: 1000
+				}}
+			/>
 			<div id="top" />
 			<AddClassBody />
 			<DataBg />
