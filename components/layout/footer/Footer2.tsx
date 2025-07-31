@@ -38,8 +38,46 @@ export default function Footer2() {
 	}, []);
 
 	return (
-		<footer className="bg-[#1f1f25] text-white w-full">
-			<div className="w-full px-4 md:px-8 lg:px-12 xl:px-24 pt-16 pb-6">
+		<>
+			<style jsx>{`
+				.footer-text {
+					color: #ffffff !important;
+					text-decoration: none !important;
+				}
+				.footer-text:hover {
+					color: #6e4ef2 !important;
+				}
+				.footer-icon {
+					color: #ffffff !important;
+				}
+				.footer-icon:hover {
+					color: #6e4ef2 !important;
+				}
+				.main-logo {
+					color: #ffffff !important;
+					text-decoration: none !important;
+					padding-top: 0.2rem !important;
+					padding-bottom: 0.2rem !important;
+				}
+				.main-logo:hover {
+					color: #ffffff !important;
+					text-decoration: none !important;
+				}
+				.main-logo span {
+					font-family: var(--dmMono) !important;
+					font-size: 24px !important;
+					font-style: normal !important;
+					font-weight: 500 !important;
+					line-height: normal !important;
+					background: linear-gradient(270deg, rgba(255, 255, 255, 0.32) 0%, #fff 100%) !important;
+					background-clip: text !important;
+					-webkit-background-clip: text !important;
+					-webkit-text-fill-color: transparent !important;
+					margin-left: 0.5rem !important;
+				}
+			`}</style>
+			<footer className="bg-[#1f1f25] text-white w-full">
+				<div className="w-full px-4 md:px-8 lg:px-12 xl:px-24 pt-16 pb-6">
 				<div className="max-w-7xl mx-auto flex flex-col items-center">
 					<svg
 						id="interactive-text-svg"
@@ -102,36 +140,37 @@ export default function Footer2() {
 
 			<div className="container position-relative z-1 border-top border-1 pb-2 pt-4">
 				<div className="text-center">
-					<a className="d-flex main-logo align-items-center justify-content-center mb-3 text-white text-decoration-none">
-						<img src="assets/imgs/home-page-2/template/favicon.svg" alt="erfanalin" />
-						<span className="fs-4 ms-2 text-white">Erfan Alin</span>
+					<a className="navbar-brand d-flex main-logo align-items-center justify-content-center mb-3" href="/">
+						<img src="assets/imgs/home-page-2/template/favicon.svg" alt="Erfan Alin" />
+						<span className="fs-4 ms-2">Erfan Alin</span>
 					</a>
 
 					<div className="d-flex justify-content-center gap-3">
-						<a href="http://facebook.com/erfanverse" target="_blank" rel="noopener noreferrer" className="text-white">
+						<a href="http://facebook.com/erfanverse" target="_blank" rel="noopener noreferrer" className="footer-icon">
 							<i className="ri-facebook-circle-fill fs-18" />
 						</a>
-						<a href="https://www.instagram.com/__you_know_whoo__" target="_blank" rel="noopener noreferrer" className="text-white">
+						<a href="https://www.instagram.com/__you_know_whoo__" target="_blank" rel="noopener noreferrer" className="footer-icon">
 							<i className="ri-instagram-fill fs-18" />
 						</a>
-						<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/" target="_blank" rel="noopener noreferrer" className="text-white">
+						<a href="https://www.linkedin.com/in/md-erfanul-haque-311042332/" target="_blank" rel="noopener noreferrer" className="footer-icon">
 							<i className="ri-linkedin-fill fs-18" />
 						</a>
-						<a href="http://github.com/erfanal1n" target="_blank" rel="noopener noreferrer" className="text-white">
+						<a href="http://github.com/erfanal1n" target="_blank" rel="noopener noreferrer" className="footer-icon">
 							<i className="ri-github-fill fs-18" />
 						</a>
 					</div>
 
 					<div className="navigation d-flex align-items-center justify-content-center flex-wrap gap-4 my-4">
-						<a href="#about" className="fs-6 text-white text-decoration-none">About me</a>
-						<a href="#resume" className="fs-6 text-white text-decoration-none">Resume</a>
-						<a href="#services" className="fs-6 text-white text-decoration-none">Services</a>
-						<a href="#portfolio" className="fs-6 text-white text-decoration-none">Portfolio</a>
-						<a href="#blog" className="fs-6 text-white text-decoration-none">Blogs</a>
-						<a href="#contact" className="fs-6 text-white text-decoration-none">Contact</a>
+						<a href="#about" className="fs-6 footer-text">About me</a>
+						<a href="#resume" className="fs-6 footer-text">Resume</a>
+						<a href="#services" className="fs-6 footer-text">Services</a>
+						<a href="#portfolio" className="fs-6 footer-text">Portfolio</a>
+						<a href="#blog" className="fs-6 footer-text">Blogs</a>
+						<a href="#contact" className="fs-6 footer-text">Contact</a>
 					</div>
 				</div>
 			</div>
-		</footer>
+			</footer>
+		</>
 	);
 }
